@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddi Niharika | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Siddi Niharika</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="darkToggle">Toggle Dark Mode</button>
+  </header>
+  
+
+  <section class="heroine">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Aspiring Software Engineer | ECE Student</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+     <img src="profile.jpg" alt="Siddi Niharika" class="profile-img">
+     <p>I am currently pursuing B.Tech in Electronics and Communication Engineering. I’m passionate about web development and learning new technologies.</p>
+    </div>  
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>B.Tech in ECE</h3>
+      <p>Avanthi's Scientific Technological and Research Academy, Guntapally<br>
+      Expected Graduation: 2025</p>
+    </div>
+    <div class="edu-card">
+      <h3>Diploma</h3>
+      <p>TRR college of Technology, Meerpet<br>
+      Year: 2022</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>Python</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>GPS + GSM Based Vehicle Location Tracking System using Arduino</h3>
+      <p>Used GPS and GSM modules with Arduino to track real-time vehicle location.</p>
+    </div>
+
+    <div class="project-card">
+      <h3> Personal Portfolio Website</h3>
+      <p>A fully responsive and animated personal website built using HTML and CSS.Features include dark mode and social media links. </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Arduino obstacles avoiding voice control + bluetooth control robot</h3>
+      <p>An ultrasonic sensor is used to detect any obstacle ahead of its and sends a command to the microcontroller</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Smart Blind Stick</h3>
+      <p>A smart blind stick project aims to create an assistive device for visually impaired individuals, using technology like sensors and microcontrollers to help them navigate safely and independently</p>
+    </div>
+  </section>
+
+  <section id="internship">
+    <h2>Internship Experience</h2>
+    <div class="intern-card">
+      <img src="nsic-logo.png" alt="NSIC Logo" class="company-logo">
+      <h3>NSIC (National Small Industries Cooperation)</h3>
+      <p><strong>Duration:</strong> 6 Months</p>
+      <p><strong>Location:</strong>Kushaiguda,ECIL</p>
+      <p><strong>Description:</strong>Underwent industrial training focused on embedded systems, circuit diagrams, PCB layout, microcontrollers, and hands-on electronics lab work.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:siddiniharika123@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; 2025 Siddi Niharika. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('darkToggle');
+    toggle.addEventListener('click',() =>{
+      document.body.classList.toggle('dark');
+    });
+  </script>
+
+</body>
+</html>
